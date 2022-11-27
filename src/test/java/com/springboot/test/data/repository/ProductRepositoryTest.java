@@ -9,7 +9,6 @@ import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabas
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 
-// TODO : do not work, will check
 // 예제 7.17
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)

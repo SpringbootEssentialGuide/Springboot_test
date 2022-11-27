@@ -9,7 +9,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-// TODO : do not work, will check
 // 예제 7.18
 @SpringBootTest
 public class ProductRepositoryTest2 {

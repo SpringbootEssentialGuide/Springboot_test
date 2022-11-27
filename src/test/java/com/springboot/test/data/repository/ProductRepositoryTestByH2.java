@@ -6,10 +6,16 @@ import com.springboot.test.data.entity.Product;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.boot.test.context.SpringBootTest;
 
-// TODO : do not work, will check
-//@TestPropertySource("classpath:application-test.properties")
-@DataJpaTest
+
+
+// 221127
+// before : DataJpaTest is not working
+// after : SpringBootTest is working
+
+//@DataJpaTest
+@SpringBootTest
 public class ProductRepositoryTestByH2 {
 
     @Autowired
